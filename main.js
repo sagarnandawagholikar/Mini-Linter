@@ -8,7 +8,7 @@ const storyWords = story.split(' ')
 //console.log(storyWords.length)
 let betterWords = storyWords.filter(function(word){
 return !unnecessaryWords.includes(word)})
-//console.log(betterWords)
+console.log(betterWords)
 let reallyCount = 0;
 let veryCount = 0;
 let basicallyCount = 0;
